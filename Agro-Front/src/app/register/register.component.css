@@ -1,0 +1,67 @@
+/* Registration Container */
+.login-wrapper {
+  /* height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  background: url('/assets/images/login-register.jpg') no-repeat center center/cover;
+}
+.registration-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  text-align: left;  /* Align text to the left */
+}
+
+/* Form Group for each input field */
+.form-group {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+   font-weight: bold;
+}
+
+input {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input:focus {
+  outline: none;
+  border-color: #4caf50;
+}
+
+/* Error Message Styles */
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+/* Button Styling */
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #09920f;
+}
+
+/* Adjust the input fields and button size */
+input, button {
+  height: 40px;
+}
